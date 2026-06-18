@@ -2,7 +2,7 @@ import { createContext, useState, useEffect } from 'react';
 import axios from 'axios';
 
 // Configure Axios Base URL
-axios.defaults.baseURL = 'http://localhost:5001/api';
+axios.defaults.baseURL = 'https://online-complaint-registration-pfe0.onrender.com/api';
 
 export const AuthContext = createContext();
 
