@@ -287,7 +287,7 @@ This project demonstrates:
 
 ## Author
 
-**Sathvik Pasham**
+**Sathvik**
 
 B.Tech Artificial Intelligence
 Newton School of Technology, Rishihood University
