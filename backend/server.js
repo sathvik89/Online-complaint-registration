@@ -16,7 +16,6 @@ const app = express();
 app.use(helmet({
   crossOriginResourcePolicy: false, // allows static served attachments to be accessed by client
 }));
-const cors = require("cors");
 
 app.use(
   cors({
