@@ -16,7 +16,16 @@ const app = express();
 app.use(helmet({
   crossOriginResourcePolicy: false, // allows static served attachments to be accessed by client
 }));
-app.use(cors());
+const cors = require("cors");
+
+app.use(
+  cors({
+    origin: ["*",
+      "https://online-complaint-registration-ten.vercel.app",
+    ],
+    credentials: true,
+  })
+);
 
 // Body Parser Middleware
 app.use(express.json());
